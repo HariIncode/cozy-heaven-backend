@@ -66,8 +66,6 @@ public class HotelServiceImpl implements HotelService {
 		
 		dto.setAverageRating(hotel.getAverageRating());
 		dto.setTotalReviews(hotel.getTotalReviews());
-		
-		dto.setTotalRooms(hotel.getRooms().size());
 	
 		dto.setCreatedAt(hotel.getCreatedAt());
 		
