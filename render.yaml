@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: cozy-heaven-backend
+    runtime: java
+    plan: free
+    buildCommand: ./mvnw clean package -DskipTests
+    startCommand: java -jar target/cozy-heaven-backend-0.0.1-SNAPSHOT.jar
+    healthCheckPath: /
+    envVars:
+      - key: PORT
+        value: 8080
+      # ── Set these in the Render dashboard (do NOT commit secrets) ──
+      - key: DB_URL
+        sync: false        # fill in Render dashboard
+      - key: DB_USERNAME
+        sync: false
+      - key: DB_PASSWORD
+        sync: false
+      - key: JWT_SECRET
+        sync: false
+      - key: APP_SELF_PING_URL
+        sync: false        # e.g. https://cozy-heaven-backend.onrender.com/

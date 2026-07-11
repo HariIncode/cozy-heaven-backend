@@ -1,0 +1,845 @@
+[INFO]  :  Starting CozyHeavenBackendApplication using Java 17.0.19 with PID 22688 (C:\Users\jeeva\Documents\workspace-spring-tools-for-eclipse-5.2.0.RELEASE\cozy-heaven-backend\target\classes started by jeeva in C:\Users\jeeva\Documents\workspace-spring-tools-for-eclipse-5.2.0.RELEASE\cozy-heaven-backend)
+[INFO]  :  No active profile set, falling back to 1 default profile: "default"
+[INFO]  :  Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]  :  Finished Spring Data repository scanning in 214 ms. Found 8 JPA repository interfaces.
+[INFO]  :  Tomcat initialized with port 8081 (http)
+[INFO]  :  Starting service [Tomcat]
+[INFO]  :  Starting Servlet engine: [Apache Tomcat/11.0.22]
+[INFO]  :  Root WebApplicationContext: initialization completed in 5934 ms
+[INFO]  :  HHH008540: Processing PersistenceUnitInfo [name: default]
+[INFO]  :  HHH000001: Hibernate ORM core version 7.4.1.Final
+[INFO]  :  No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO]  :  HikariPool-1 - Starting...
+[INFO]  :  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@44da745f
+[INFO]  :  HikariPool-1 - Start completed.
+[INFO]  :  HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/cozyheaven_reworked]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.46
+	Default catalog/schema: cozyheaven_reworked/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO]  :  HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO]  :  Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]  :  Hibernate is in classpath; If applicable, HQL parser will be used.
+[INFO]  :  Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+[WARN]  :  Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+[WARN]  :  spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]  :  Tomcat started on port 8081 (http) with context path '/'
+[INFO]  :  Started CozyHeavenBackendApplication in 20.099 seconds (process running for 23.04)
+[WARN]  :  SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+[WARN]  :  SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+[INFO]  :  Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]  :  Initializing Servlet 'dispatcherServlet'
+[INFO]  :  Completed initialization in 8 ms
+[INFO]  :  Init duration for springdoc-openapi is: 1423 ms
+[INFO]  :  Getting all Users from Database.
+[INFO]  :  Getting All Hotels.
+[INFO]  :  Getting All Hotels.
+[INFO]  :  Getting Hotels for the Given Location: Vellore
+[INFO]  :  Getting Hotels for the Given Location: Vellore
+[INFO]  :  Finding All Rooms For Hotel :6
+[INFO]  :  Getting Hotel For HotelId: 6
+[INFO]  :  Fetching reviews for hotel id: 6
+[INFO]  :  Getting Hotel For HotelId: 6
+[INFO]  :  Fetching reviews for hotel id: 6
+[INFO]  :  Finding All Rooms For Hotel :6
+[INFO]  :  Getting All Hotels.
+[INFO]  :  Getting All Hotels.
+[INFO]  :  Fetching reviews for hotel id: 5
+[INFO]  :  Getting Hotel For HotelId: 5
+[INFO]  :  Finding All Rooms For Hotel :5
+[INFO]  :  Fetching reviews for hotel id: 5
+[INFO]  :  Getting Hotel For HotelId: 5
+[INFO]  :  Finding All Rooms For Hotel :5
+[INFO]  :  Getting Room For RoomID : 15
+[INFO]  :  Getting Room For RoomID : 15
+[INFO]  :  Fetching reviews for hotel id: 5
+[INFO]  :  Getting Hotel For HotelId: 5
+[INFO]  :  Finding All Rooms For Hotel :5
+[INFO]  :  Fetching reviews for hotel id: 5
+[INFO]  :  Getting Hotel For HotelId: 5
+[INFO]  :  Finding All Rooms For Hotel :5
+[INFO]  :  Getting All Hotels.
+[INFO]  :  Getting All Hotels.
+[INFO]  :  Finding All Rooms For Hotel :7
+[INFO]  :  Getting Hotel For HotelId: 7
+[INFO]  :  Fetching reviews for hotel id: 7
+[INFO]  :  Getting Hotel For HotelId: 7
+[INFO]  :  Fetching reviews for hotel id: 7
+[INFO]  :  Finding All Rooms For Hotel :7
+[INFO]  :  Getting Room For RoomID : 10
+[INFO]  :  Getting Room For RoomID : 10
+[INFO]  :  Getting All Hotels.
+[INFO]  :  Getting All Hotels.
+[INFO]  :  Getting Hotel For HotelId: 7
+[INFO]  :  Finding All Rooms For Hotel :7
+[INFO]  :  Fetching reviews for hotel id: 7
+[INFO]  :  Getting Hotel For HotelId: 7
+[INFO]  :  Fetching reviews for hotel id: 7
+[INFO]  :  Finding All Rooms For Hotel :7
+[INFO]  :  Getting Room For RoomID : 10
+[INFO]  :  Getting Room For RoomID : 10
+[ERROR]  :  User not found with id: 1
+[ERROR]  :  BookingException occurred: No User found with id: 1
+[ERROR]  :  User not found with id: 1
+[ERROR]  :  BookingException occurred: No User found with id: 1
+[ERROR]  :  User not found with id: 1
+[ERROR]  :  BookingException occurred: No User found with id: 1
+[INFO]  :  Username in AuthController: Guest@gmail.com
+[INFO]  :  Getting All Hotels.
+[INFO]  :  Getting All Hotels.
+[INFO]  :  Getting All Hotels.
+[INFO]  :  Getting All Hotels.
+[INFO]  :  Username in AuthController: Lee@gmail.com
+[INFO]  :  Getting All Hotels.
+[INFO]  :  Fetching all bookings
+[INFO]  :  Getting All Refunds
+[INFO]  :  Getting all Users from Database.
+[INFO]  :  Getting All Hotels.
+[INFO]  :  Getting All Refunds
+[INFO]  :  Getting all Users from Database.
+[INFO]  :  Fetching all bookings
+[INFO]  :  Fetching bookings for userId: 7
+[INFO]  :  Fetching bookings for userId: 7
+[INFO]  :  Getting All Hotels.
+[INFO]  :  Getting All Hotels.
+[INFO]  :  Getting Hotel For HotelId: 5
+[INFO]  :  Finding All Rooms For Hotel :5
+[INFO]  :  Fetching reviews for hotel id: 5
+[INFO]  :  Getting Hotel For HotelId: 5
+[INFO]  :  Fetching reviews for hotel id: 5
+[INFO]  :  Finding All Rooms For Hotel :5
+[INFO]  :  Getting Room For RoomID : 7
+[INFO]  :  Getting Room For RoomID : 7
+[INFO]  :  Booking created with id: 25, totalNights: 8, totalAmount: 6000
+[INFO]  :  Getting Room For RoomID : 7
+[INFO]  :  Room Blocked
+[INFO]  :  Room 7 blocked for booking 25
+[INFO]  :  Payment created with PENDING status for booking id: 25
+[INFO]  :  Getting Room For RoomID : 7
+[INFO]  :  Room Unblocked
+[INFO]  :  Days to login: 0, Refund Percentage: 0
+[INFO]  :  Fetching reviews for user id: 7
+[ERROR]  :  No refund found for the BookingId: 25
+[ERROR]  :  RefundException occurred: No refund found for booking : 25
+[INFO]  :  Fetching reviews for user id: 7
+[ERROR]  :  No refund found for the BookingId: 25
+[ERROR]  :  RefundException occurred: No refund found for booking : 25
+[ERROR]  :  BookingException occurred: Booking 25 is already cancelled
+[INFO]  :  Fetching reviews for hotel id: 9
+[INFO]  :  Finding All Rooms For Hotel :9
+[INFO]  :  Getting Hotel For HotelId: 9
+[INFO]  :  Fetching reviews for hotel id: 9
+[INFO]  :  Getting Hotel For HotelId: 9
+[INFO]  :  Finding All Rooms For Hotel :9
+[INFO]  :  Application shutdown requested.
+[INFO]  :  Commencing graceful shutdown. Waiting for active requests to complete
+[INFO]  :  Graceful shutdown complete
+[INFO]  :  Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]  :  HikariPool-1 - Shutdown initiated...
+[INFO]  :  HikariPool-1 - Shutdown completed.
+[INFO]  :  Starting CozyHeavenBackendApplication using Java 17.0.19 with PID 3968 (C:\Users\jeeva\Documents\workspace-spring-tools-for-eclipse-5.2.0.RELEASE\cozy-heaven-backend\target\classes started by jeeva in C:\Users\jeeva\Documents\workspace-spring-tools-for-eclipse-5.2.0.RELEASE\cozy-heaven-backend)
+[INFO]  :  No active profile set, falling back to 1 default profile: "default"
+[INFO]  :  Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]  :  Finished Spring Data repository scanning in 84 ms. Found 8 JPA repository interfaces.
+[INFO]  :  Tomcat initialized with port 8081 (http)
+[INFO]  :  Starting service [Tomcat]
+[INFO]  :  Starting Servlet engine: [Apache Tomcat/11.0.22]
+[INFO]  :  Root WebApplicationContext: initialization completed in 2123 ms
+[INFO]  :  HHH008540: Processing PersistenceUnitInfo [name: default]
+[INFO]  :  HHH000001: Hibernate ORM core version 7.4.1.Final
+[INFO]  :  No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO]  :  HikariPool-1 - Starting...
+[INFO]  :  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@76e2a621
+[INFO]  :  HikariPool-1 - Start completed.
+[INFO]  :  HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/cozyheaven_reworked]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.46
+	Default catalog/schema: cozyheaven_reworked/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO]  :  HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO]  :  Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]  :  Hibernate is in classpath; If applicable, HQL parser will be used.
+[INFO]  :  Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+[WARN]  :  Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+[WARN]  :  spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]  :  Tomcat started on port 8081 (http) with context path '/'
+[INFO]  :  Started CozyHeavenBackendApplication in 7.528 seconds (process running for 8.249)
+[WARN]  :  SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+[WARN]  :  SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+[INFO]  :  Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]  :  Initializing Servlet 'dispatcherServlet'
+[INFO]  :  Completed initialization in 36 ms
+[INFO]  :  Fetching bookings for userId: 14
+[INFO]  :  Fetching bookings for userId: 14
+[INFO]  :  Getting All Hotels.
+[INFO]  :  Getting All Hotels.
+[INFO]  :  Fetching bookings for userId: 14
+[INFO]  :  Fetching bookings for userId: 14
+[INFO]  :  Getting All Hotels.
+[INFO]  :  Getting All Hotels.
+[INFO]  :  Getting All Hotels.
+[INFO]  :  Getting All Hotels.
+[INFO]  :  Fetching bookings for userId: 14
+[INFO]  :  Fetching bookings for userId: 14
+[INFO]  :  Username in AuthController: Lee@gmail.com
+[INFO]  :  Getting All Hotels.
+[INFO]  :  Fetching all bookings
+[INFO]  :  Getting All Refunds
+[INFO]  :  Getting all Users from Database.
+[INFO]  :  Getting All Hotels.
+[INFO]  :  Getting All Refunds
+[INFO]  :  Fetching all bookings
+[INFO]  :  Getting all Users from Database.
+[INFO]  :  Getting all Users from Database.
+[INFO]  :  Getting all Users from Database.
+[INFO]  :  Getting All Hotels.
+[INFO]  :  Getting All Hotels.
+[INFO]  :  Fetching all bookings
+[INFO]  :  Fetching all bookings
+[INFO]  :  Fetching all bookings
+[INFO]  :  Fetching all bookings
+[INFO]  :  Fetching all bookings
+[INFO]  :  Fetching all bookings
+[INFO]  :  Fetching all bookings
+[INFO]  :  Fetching all bookings
+[INFO]  :  Fetching all bookings
+[INFO]  :  Fetching all bookings
+[INFO]  :  Fetching all bookings
+[INFO]  :  Fetching all bookings
+[ERROR]  :  No refund found for the BookingId: 2
+[INFO]  :  Fetching reviews for user id: 7
+[ERROR]  :  RefundException occurred: No refund found for booking : 2
+[INFO]  :  Fetching reviews for user id: 7
+[ERROR]  :  No refund found for the BookingId: 2
+[ERROR]  :  RefundException occurred: No refund found for booking : 2
+[INFO]  :  Fetching all bookings
+[INFO]  :  Fetching all bookings
+[INFO]  :  Getting All Hotels.
+[INFO]  :  Getting All Hotels.
+[INFO]  :  Getting Hotel For HotelId: 5
+[INFO]  :  Finding All Rooms For Hotel :5
+[INFO]  :  Fetching reviews for hotel id: 5
+[INFO]  :  Fetching reviews for hotel id: 5
+[INFO]  :  Getting Hotel For HotelId: 5
+[INFO]  :  Finding All Rooms For Hotel :5
+[INFO]  :  Getting Room For RoomID : 7
+[INFO]  :  Getting Room For RoomID : 7
+[INFO]  :  Fetching reviews for hotel id: 5
+[INFO]  :  Getting Hotel For HotelId: 5
+[INFO]  :  Finding All Rooms For Hotel :5
+[INFO]  :  Fetching reviews for hotel id: 5
+[INFO]  :  Getting Hotel For HotelId: 5
+[INFO]  :  Finding All Rooms For Hotel :5
+[INFO]  :  Getting All Hotels.
+[INFO]  :  Getting All Hotels.
+[INFO]  :  Fetching reviews for hotel id: 9
+[INFO]  :  Finding All Rooms For Hotel :9
+[INFO]  :  Getting Hotel For HotelId: 9
+[INFO]  :  Fetching reviews for hotel id: 9
+[INFO]  :  Getting Hotel For HotelId: 9
+[INFO]  :  Finding All Rooms For Hotel :9
+[INFO]  :  Getting Room For RoomID : 14
+[INFO]  :  Getting Room For RoomID : 14
+[INFO]  :  Fetching reviews for hotel id: 9
+[INFO]  :  Finding All Rooms For Hotel :9
+[INFO]  :  Getting Hotel For HotelId: 9
+[INFO]  :  Fetching reviews for hotel id: 9
+[INFO]  :  Getting Hotel For HotelId: 9
+[INFO]  :  Finding All Rooms For Hotel :9
+[INFO]  :  Fetching bookings for userId: 7
+[INFO]  :  Fetching bookings for userId: 7
+[INFO]  :  Getting All Hotels.
+[INFO]  :  Getting All Hotels.
+[INFO]  :  Fetching reviews for hotel id: 9
+[INFO]  :  Getting Hotel For HotelId: 9
+[INFO]  :  Finding All Rooms For Hotel :9
+[INFO]  :  Getting Hotel For HotelId: 9
+[INFO]  :  Fetching reviews for hotel id: 9
+[INFO]  :  Finding All Rooms For Hotel :9
+[INFO]  :  Getting Room For RoomID : 14
+[INFO]  :  Getting Room For RoomID : 14
+[INFO]  :  Booking created with id: 26, totalNights: 7, totalAmount: 17500
+[INFO]  :  Getting Room For RoomID : 14
+[INFO]  :  Room Blocked
+[INFO]  :  Room 14 blocked for booking 26
+[INFO]  :  Payment created with PENDING status for booking id: 26
+[INFO]  :  1 guests saved for booking id: 26
+[INFO]  :  Getting Room For RoomID : 14
+[INFO]  :  Room Unblocked
+[INFO]  :  Days to login: 0, Refund Percentage: 0
+[INFO]  :  Fetching reviews for user id: 7
+[ERROR]  :  No refund found for the BookingId: 26
+[ERROR]  :  RefundException occurred: No refund found for booking : 26
+[INFO]  :  Fetching reviews for user id: 7
+[ERROR]  :  No refund found for the BookingId: 26
+[ERROR]  :  RefundException occurred: No refund found for booking : 26
+[INFO]  :  Fetching bookings for userId: 7
+[INFO]  :  Fetching bookings for userId: 7
+[INFO]  :  Fetching reviews for user id: 7
+[ERROR]  :  No refund found for the BookingId: 2
+[ERROR]  :  RefundException occurred: No refund found for booking : 2
+[INFO]  :  Fetching reviews for user id: 7
+[ERROR]  :  No refund found for the BookingId: 2
+[ERROR]  :  RefundException occurred: No refund found for booking : 2
+[INFO]  :  Fetching all bookings
+[INFO]  :  Getting All Hotels.
+[INFO]  :  Getting All Refunds
+[INFO]  :  Getting all Users from Database.
+[INFO]  :  Getting All Refunds
+[INFO]  :  Getting All Hotels.
+[INFO]  :  Fetching all bookings
+[INFO]  :  Getting all Users from Database.
+[INFO]  :  Fetching bookings for userId: 7
+[INFO]  :  Fetching bookings for userId: 7
+[INFO]  :  Getting All Hotels.
+[INFO]  :  Getting All Refunds
+[INFO]  :  Fetching all bookings
+[INFO]  :  Getting all Users from Database.
+[INFO]  :  Getting All Refunds
+[INFO]  :  Getting All Hotels.
+[INFO]  :  Fetching all bookings
+[INFO]  :  Getting all Users from Database.
+[INFO]  :  Application shutdown requested.
+[INFO]  :  Commencing graceful shutdown. Waiting for active requests to complete
+[INFO]  :  Graceful shutdown complete
+[INFO]  :  Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]  :  HikariPool-1 - Shutdown initiated...
+[INFO]  :  HikariPool-1 - Shutdown completed.
+[INFO]  :  Starting CozyHeavenBackendApplication using Java 17.0.19 with PID 3112 (C:\Users\jeeva\Documents\workspace-spring-tools-for-eclipse-5.2.0.RELEASE\cozy-heaven-backend\target\classes started by jeeva in C:\Users\jeeva\Documents\workspace-spring-tools-for-eclipse-5.2.0.RELEASE\cozy-heaven-backend)
+[INFO]  :  No active profile set, falling back to 1 default profile: "default"
+[INFO]  :  Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]  :  Finished Spring Data repository scanning in 69 ms. Found 8 JPA repository interfaces.
+[INFO]  :  Tomcat initialized with port 8081 (http)
+[INFO]  :  Starting service [Tomcat]
+[INFO]  :  Starting Servlet engine: [Apache Tomcat/11.0.22]
+[INFO]  :  Root WebApplicationContext: initialization completed in 1820 ms
+[INFO]  :  HHH008540: Processing PersistenceUnitInfo [name: default]
+[INFO]  :  HHH000001: Hibernate ORM core version 7.4.1.Final
+[INFO]  :  No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO]  :  HikariPool-1 - Starting...
+[INFO]  :  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@d02c00
+[INFO]  :  HikariPool-1 - Start completed.
+[INFO]  :  HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/cozyheaven_reworked]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.46
+	Default catalog/schema: cozyheaven_reworked/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO]  :  HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO]  :  Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]  :  Hibernate is in classpath; If applicable, HQL parser will be used.
+[INFO]  :  Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+[WARN]  :  Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+[WARN]  :  spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[WARN]  :  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+[INFO]  :  Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]  :  HikariPool-1 - Shutdown initiated...
+[INFO]  :  HikariPool-1 - Shutdown completed.
+[INFO]  :  
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[ERROR]  :  
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+[INFO]  :  Starting CozyHeavenBackendApplication using Java 17.0.19 with PID 7816 (C:\Users\jeeva\Documents\workspace-spring-tools-for-eclipse-5.2.0.RELEASE\cozy-heaven-backend\target\classes started by jeeva in C:\Users\jeeva\Documents\workspace-spring-tools-for-eclipse-5.2.0.RELEASE\cozy-heaven-backend)
+[INFO]  :  No active profile set, falling back to 1 default profile: "default"
+[INFO]  :  Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]  :  Finished Spring Data repository scanning in 57 ms. Found 8 JPA repository interfaces.
+[INFO]  :  Tomcat initialized with port 8081 (http)
+[INFO]  :  Starting service [Tomcat]
+[INFO]  :  Starting Servlet engine: [Apache Tomcat/11.0.22]
+[INFO]  :  Root WebApplicationContext: initialization completed in 1613 ms
+[INFO]  :  HHH008540: Processing PersistenceUnitInfo [name: default]
+[INFO]  :  HHH000001: Hibernate ORM core version 7.4.1.Final
+[INFO]  :  No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO]  :  HikariPool-1 - Starting...
+[INFO]  :  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@24d0c6a4
+[INFO]  :  HikariPool-1 - Start completed.
+[INFO]  :  HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/cozyheaven_reworked]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.46
+	Default catalog/schema: cozyheaven_reworked/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO]  :  HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO]  :  Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]  :  Hibernate is in classpath; If applicable, HQL parser will be used.
+[INFO]  :  Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+[WARN]  :  Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+[WARN]  :  spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[WARN]  :  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+[INFO]  :  Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]  :  HikariPool-1 - Shutdown initiated...
+[INFO]  :  HikariPool-1 - Shutdown completed.
+[INFO]  :  
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[ERROR]  :  
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+[INFO]  :  Starting CozyHeavenBackendApplication using Java 17.0.19 with PID 228 (C:\Users\jeeva\Documents\workspace-spring-tools-for-eclipse-5.2.0.RELEASE\cozy-heaven-backend\target\classes started by jeeva in C:\Users\jeeva\Documents\workspace-spring-tools-for-eclipse-5.2.0.RELEASE\cozy-heaven-backend)
+[INFO]  :  No active profile set, falling back to 1 default profile: "default"
+[INFO]  :  Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]  :  Finished Spring Data repository scanning in 58 ms. Found 8 JPA repository interfaces.
+[INFO]  :  Tomcat initialized with port 8082 (http)
+[INFO]  :  Starting service [Tomcat]
+[INFO]  :  Starting Servlet engine: [Apache Tomcat/11.0.22]
+[INFO]  :  Root WebApplicationContext: initialization completed in 1697 ms
+[INFO]  :  HHH008540: Processing PersistenceUnitInfo [name: default]
+[INFO]  :  HHH000001: Hibernate ORM core version 7.4.1.Final
+[INFO]  :  No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO]  :  HikariPool-1 - Starting...
+[INFO]  :  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@24d0c6a4
+[INFO]  :  HikariPool-1 - Start completed.
+[INFO]  :  HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/cozyheaven_reworked]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.46
+	Default catalog/schema: cozyheaven_reworked/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO]  :  HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO]  :  Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]  :  Hibernate is in classpath; If applicable, HQL parser will be used.
+[INFO]  :  Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+[WARN]  :  Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+[WARN]  :  spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[WARN]  :  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+[INFO]  :  Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]  :  HikariPool-1 - Shutdown initiated...
+[INFO]  :  HikariPool-1 - Shutdown completed.
+[INFO]  :  
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[ERROR]  :  
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8082 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8082 or configure this application to listen on another port.
+
+[INFO]  :  Starting CozyHeavenBackendApplication using Java 17.0.19 with PID 14028 (C:\Users\jeeva\Documents\workspace-spring-tools-for-eclipse-5.2.0.RELEASE\cozy-heaven-backend\target\classes started by jeeva in C:\Users\jeeva\Documents\workspace-spring-tools-for-eclipse-5.2.0.RELEASE\cozy-heaven-backend)
+[INFO]  :  No active profile set, falling back to 1 default profile: "default"
+[INFO]  :  Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]  :  Finished Spring Data repository scanning in 84 ms. Found 8 JPA repository interfaces.
+[INFO]  :  Tomcat initialized with port 8082 (http)
+[INFO]  :  Starting service [Tomcat]
+[INFO]  :  Starting Servlet engine: [Apache Tomcat/11.0.22]
+[INFO]  :  Root WebApplicationContext: initialization completed in 2074 ms
+[INFO]  :  HHH008540: Processing PersistenceUnitInfo [name: default]
+[INFO]  :  HHH000001: Hibernate ORM core version 7.4.1.Final
+[INFO]  :  No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO]  :  HikariPool-1 - Starting...
+[INFO]  :  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@30cb223b
+[INFO]  :  HikariPool-1 - Start completed.
+[INFO]  :  HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/cozyheaven_reworked]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.46
+	Default catalog/schema: cozyheaven_reworked/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO]  :  HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO]  :  Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]  :  Hibernate is in classpath; If applicable, HQL parser will be used.
+[INFO]  :  Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+[WARN]  :  Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+[WARN]  :  spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[WARN]  :  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+[INFO]  :  Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]  :  HikariPool-1 - Shutdown initiated...
+[INFO]  :  HikariPool-1 - Shutdown completed.
+[INFO]  :  
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[ERROR]  :  
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8082 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8082 or configure this application to listen on another port.
+
+[INFO]  :  Starting CozyHeavenBackendApplication using Java 17.0.19 with PID 13436 (C:\Users\jeeva\Documents\workspace-spring-tools-for-eclipse-5.2.0.RELEASE\cozy-heaven-backend\target\classes started by jeeva in C:\Users\jeeva\Documents\workspace-spring-tools-for-eclipse-5.2.0.RELEASE\cozy-heaven-backend)
+[INFO]  :  No active profile set, falling back to 1 default profile: "default"
+[INFO]  :  Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]  :  Finished Spring Data repository scanning in 57 ms. Found 8 JPA repository interfaces.
+[INFO]  :  Tomcat initialized with port 8082 (http)
+[INFO]  :  Starting service [Tomcat]
+[INFO]  :  Starting Servlet engine: [Apache Tomcat/11.0.22]
+[INFO]  :  Root WebApplicationContext: initialization completed in 1500 ms
+[INFO]  :  HHH008540: Processing PersistenceUnitInfo [name: default]
+[INFO]  :  HHH000001: Hibernate ORM core version 7.4.1.Final
+[INFO]  :  No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO]  :  HikariPool-1 - Starting...
+[INFO]  :  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@24d0c6a4
+[INFO]  :  HikariPool-1 - Start completed.
+[INFO]  :  HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/cozyheaven_reworked]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.46
+	Default catalog/schema: cozyheaven_reworked/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO]  :  HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO]  :  Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]  :  Hibernate is in classpath; If applicable, HQL parser will be used.
+[INFO]  :  Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+[WARN]  :  Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+[WARN]  :  spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[WARN]  :  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+[INFO]  :  Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]  :  HikariPool-1 - Shutdown initiated...
+[INFO]  :  HikariPool-1 - Shutdown completed.
+[INFO]  :  
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[ERROR]  :  
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8082 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8082 or configure this application to listen on another port.
+
+[INFO]  :  Starting CozyHeavenBackendApplication using Java 17.0.19 with PID 15508 (C:\Users\jeeva\Documents\workspace-spring-tools-for-eclipse-5.2.0.RELEASE\cozy-heaven-backend\target\classes started by jeeva in C:\Users\jeeva\Documents\workspace-spring-tools-for-eclipse-5.2.0.RELEASE\cozy-heaven-backend)
+[INFO]  :  No active profile set, falling back to 1 default profile: "default"
+[INFO]  :  Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]  :  Finished Spring Data repository scanning in 57 ms. Found 8 JPA repository interfaces.
+[INFO]  :  Tomcat initialized with port 8082 (http)
+[INFO]  :  Starting service [Tomcat]
+[INFO]  :  Starting Servlet engine: [Apache Tomcat/11.0.22]
+[INFO]  :  Root WebApplicationContext: initialization completed in 1484 ms
+[INFO]  :  HHH008540: Processing PersistenceUnitInfo [name: default]
+[INFO]  :  HHH000001: Hibernate ORM core version 7.4.1.Final
+[INFO]  :  No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO]  :  HikariPool-1 - Starting...
+[INFO]  :  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@24d0c6a4
+[INFO]  :  HikariPool-1 - Start completed.
+[INFO]  :  HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/cozyheaven_reworked]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.46
+	Default catalog/schema: cozyheaven_reworked/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO]  :  HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO]  :  Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]  :  Hibernate is in classpath; If applicable, HQL parser will be used.
+[INFO]  :  Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+[WARN]  :  Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+[WARN]  :  spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[WARN]  :  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+[INFO]  :  Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]  :  HikariPool-1 - Shutdown initiated...
+[INFO]  :  HikariPool-1 - Shutdown completed.
+[INFO]  :  
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[ERROR]  :  
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8082 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8082 or configure this application to listen on another port.
+
+[INFO]  :  Starting CozyHeavenBackendApplication using Java 17.0.19 with PID 3316 (C:\Users\jeeva\Documents\workspace-spring-tools-for-eclipse-5.2.0.RELEASE\cozy-heaven-backend\target\classes started by jeeva in C:\Users\jeeva\Documents\workspace-spring-tools-for-eclipse-5.2.0.RELEASE\cozy-heaven-backend)
+[INFO]  :  No active profile set, falling back to 1 default profile: "default"
+[INFO]  :  Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]  :  Finished Spring Data repository scanning in 55 ms. Found 8 JPA repository interfaces.
+[INFO]  :  Tomcat initialized with port 8085 (http)
+[INFO]  :  Starting service [Tomcat]
+[INFO]  :  Starting Servlet engine: [Apache Tomcat/11.0.22]
+[INFO]  :  Root WebApplicationContext: initialization completed in 1378 ms
+[INFO]  :  HHH008540: Processing PersistenceUnitInfo [name: default]
+[INFO]  :  HHH000001: Hibernate ORM core version 7.4.1.Final
+[INFO]  :  No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO]  :  HikariPool-1 - Starting...
+[INFO]  :  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@24d0c6a4
+[INFO]  :  HikariPool-1 - Start completed.
+[INFO]  :  HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/cozyheaven_reworked]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.46
+	Default catalog/schema: cozyheaven_reworked/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO]  :  HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO]  :  Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]  :  Hibernate is in classpath; If applicable, HQL parser will be used.
+[INFO]  :  Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+[WARN]  :  Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+[WARN]  :  spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[WARN]  :  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+[INFO]  :  Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]  :  HikariPool-1 - Shutdown initiated...
+[INFO]  :  HikariPool-1 - Shutdown completed.
+[INFO]  :  
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[ERROR]  :  
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8085 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8085 or configure this application to listen on another port.
+
+[INFO]  :  Starting CozyHeavenBackendApplication using Java 17.0.19 with PID 22392 (C:\Users\jeeva\Documents\workspace-spring-tools-for-eclipse-5.2.0.RELEASE\cozy-heaven-backend\target\classes started by jeeva in C:\Users\jeeva\Documents\workspace-spring-tools-for-eclipse-5.2.0.RELEASE\cozy-heaven-backend)
+[INFO]  :  No active profile set, falling back to 1 default profile: "default"
+[INFO]  :  Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]  :  Finished Spring Data repository scanning in 77 ms. Found 8 JPA repository interfaces.
+[INFO]  :  Tomcat initialized with port 8085 (http)
+[INFO]  :  Starting service [Tomcat]
+[INFO]  :  Starting Servlet engine: [Apache Tomcat/11.0.22]
+[INFO]  :  Root WebApplicationContext: initialization completed in 1885 ms
+[INFO]  :  HHH008540: Processing PersistenceUnitInfo [name: default]
+[INFO]  :  HHH000001: Hibernate ORM core version 7.4.1.Final
+[INFO]  :  No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO]  :  HikariPool-1 - Starting...
+[INFO]  :  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@24d0c6a4
+[INFO]  :  HikariPool-1 - Start completed.
+[INFO]  :  HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/cozyheaven_reworked]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.46
+	Default catalog/schema: cozyheaven_reworked/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO]  :  HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO]  :  Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]  :  Hibernate is in classpath; If applicable, HQL parser will be used.
+[INFO]  :  Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+[WARN]  :  Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+[WARN]  :  spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[WARN]  :  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+[INFO]  :  Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]  :  HikariPool-1 - Shutdown initiated...
+[INFO]  :  HikariPool-1 - Shutdown completed.
+[INFO]  :  
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[ERROR]  :  
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8085 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8085 or configure this application to listen on another port.
+
+[INFO]  :  Starting CozyHeavenBackendApplication using Java 17.0.19 with PID 17108 (C:\Users\jeeva\Documents\workspace-spring-tools-for-eclipse-5.2.0.RELEASE\cozy-heaven-backend\target\classes started by jeeva in C:\Users\jeeva\Documents\workspace-spring-tools-for-eclipse-5.2.0.RELEASE\cozy-heaven-backend)
+[INFO]  :  No active profile set, falling back to 1 default profile: "default"
+[INFO]  :  Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]  :  Finished Spring Data repository scanning in 61 ms. Found 8 JPA repository interfaces.
+[INFO]  :  Tomcat initialized with port 8085 (http)
+[INFO]  :  Starting service [Tomcat]
+[INFO]  :  Starting Servlet engine: [Apache Tomcat/11.0.22]
+[INFO]  :  Root WebApplicationContext: initialization completed in 1525 ms
+[INFO]  :  HHH008540: Processing PersistenceUnitInfo [name: default]
+[INFO]  :  HHH000001: Hibernate ORM core version 7.4.1.Final
+[INFO]  :  No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO]  :  HikariPool-1 - Starting...
+[INFO]  :  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4ba402b5
+[INFO]  :  HikariPool-1 - Start completed.
+[INFO]  :  HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/cozyheaven_reworked]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.46
+	Default catalog/schema: cozyheaven_reworked/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO]  :  HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO]  :  Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]  :  Hibernate is in classpath; If applicable, HQL parser will be used.
+[INFO]  :  Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+[WARN]  :  Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+[WARN]  :  spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[WARN]  :  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+[INFO]  :  Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]  :  HikariPool-1 - Shutdown initiated...
+[INFO]  :  HikariPool-1 - Shutdown completed.
+[INFO]  :  
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[ERROR]  :  
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8085 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8085 or configure this application to listen on another port.
+
+[INFO]  :  Starting CozyHeavenBackendApplication using Java 17.0.19 with PID 10544 (C:\Users\jeeva\Documents\workspace-spring-tools-for-eclipse-5.2.0.RELEASE\cozy-heaven-backend\target\classes started by jeeva in C:\Users\jeeva\Documents\workspace-spring-tools-for-eclipse-5.2.0.RELEASE\cozy-heaven-backend)
+[INFO]  :  No active profile set, falling back to 1 default profile: "default"
+[INFO]  :  Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]  :  Finished Spring Data repository scanning in 86 ms. Found 8 JPA repository interfaces.
+[INFO]  :  Tomcat initialized with port 8080 (http)
+[INFO]  :  Starting service [Tomcat]
+[INFO]  :  Starting Servlet engine: [Apache Tomcat/11.0.22]
+[INFO]  :  Root WebApplicationContext: initialization completed in 2206 ms
+[INFO]  :  HHH008540: Processing PersistenceUnitInfo [name: default]
+[INFO]  :  HHH000001: Hibernate ORM core version 7.4.1.Final
+[INFO]  :  No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO]  :  HikariPool-1 - Starting...
+[INFO]  :  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4ba402b5
+[INFO]  :  HikariPool-1 - Start completed.
+[INFO]  :  HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/cozyheaven_reworked]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.46
+	Default catalog/schema: cozyheaven_reworked/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO]  :  HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO]  :  Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]  :  Hibernate is in classpath; If applicable, HQL parser will be used.
+[INFO]  :  Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+[WARN]  :  Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+[WARN]  :  spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]  :  Tomcat started on port 8080 (http) with context path '/'
+[INFO]  :  Started CozyHeavenBackendApplication in 9.569 seconds (process running for 10.797)
+[WARN]  :  SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+[WARN]  :  SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+[INFO]  :  Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]  :  Initializing Servlet 'dispatcherServlet'
+[INFO]  :  Completed initialization in 2 ms
+[INFO]  :  Getting All Hotels.
+[INFO]  :  Getting All Hotels.
+[INFO]  :  Application shutdown requested.
+[INFO]  :  Commencing graceful shutdown. Waiting for active requests to complete
+[INFO]  :  Graceful shutdown complete
+[INFO]  :  Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]  :  HikariPool-1 - Shutdown initiated...
+[INFO]  :  HikariPool-1 - Shutdown completed.
