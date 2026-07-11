@@ -20,7 +20,11 @@ import com.hexaware.cozy_heaven.service.ReviewService;
 
 import jakarta.validation.Valid;
 
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {
+	    "http://localhost:5173",
+	    "https://d2xp6setbjof39.cloudfront.net",
+	    "https://hariincode.github.io/cozy-heaven/"
+	})
 @RestController
 @RequestMapping("/review")
 public class ReviewRestController {

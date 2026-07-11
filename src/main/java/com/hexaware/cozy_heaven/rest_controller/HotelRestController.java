@@ -22,7 +22,11 @@ import com.hexaware.cozy_heaven.service.HotelService;
 import jakarta.validation.Valid;
 import lombok.extern.slf4j.Slf4j;
 
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {
+	    "http://localhost:5173",
+	    "https://d2xp6setbjof39.cloudfront.net",
+	    "https://hariincode.github.io/cozy-heaven/"
+	})
 @RestController
 @RequestMapping("/hotels")
 @Slf4j

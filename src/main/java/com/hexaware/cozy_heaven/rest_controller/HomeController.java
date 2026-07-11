@@ -6,7 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @CrossOrigin(origins = {
 	    "http://localhost:5173",
-	    "https://d2xp6setbjof39.cloudfront.net"
+	    "https://d2xp6setbjof39.cloudfront.net",
+	    "https://hariincode.github.io/cozy-heaven/"
 	})
 @RestController
 public class HomeController {
